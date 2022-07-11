@@ -11,12 +11,12 @@ number = -10
 
 def sumDigits(number):
     sum = 0
-    numPositive = abs(number)
-    digitsCount = len(str(numPositive))
+    num_positive = abs(number)
+    digits_count = len(str(num_positive))
 
-    for i in range (0, digitsCount):
-        sum += numPositive % 10
-        numPositive //= 10
+    for i in range (0, digits_count):
+        sum += num_positive % 10
+        num_positive //= 10
 
     return sum
 

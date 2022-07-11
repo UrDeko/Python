@@ -1,20 +1,20 @@
-def containingAllDigits(number, digits):
+def containing_all_digits(number, digits):
     if not digits:
         return False
 
-    numberAsList = []
+    number_as_list = []
     listLength = len(str(number))
 
     for i in range(listLength):
-        numberAsList.insert(0, number % 10)
+        number_as_list.insert(0, number % 10)
         number //= 10
 
     for element in digits:
-        if numberAsList.count(element) > 0:
+        if number_as_list.count(element) > 0:
             continue
         else:
             return False
     
     return True
 
-print(containingAllDigits(456, []))
+print(containing_all_digits(456, []))

@@ -1,4 +1,4 @@
-def sumMinMax(list):
+def sum_min_max(list):
     min = 1000000
     max = -1000000
 
@@ -13,4 +13,4 @@ def sumMinMax(list):
 
 list = [1]
 
-print(sumMinMax(list))
+print(sum_min_max(list))

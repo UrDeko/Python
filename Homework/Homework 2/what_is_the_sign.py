@@ -1,4 +1,4 @@
-def whatIsMySign(day, month):
+def what_is_my_sign(day, month):
     signs = [ [20, 4, "Aries"],
               [21, 5, "Taurus"],
               [21, 6, "Gemini"],
@@ -21,4 +21,4 @@ def whatIsMySign(day, month):
                     i == 0
                 return signs[i + 1][2]
 
-print(whatIsMySign(29, 1))
+print(what_is_my_sign(29, 1))

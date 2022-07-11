@@ -1,8 +1,8 @@
 def to_digits(number):
     list = []
-    digitsCount = len(str(number))
+    digits_count = len(str(number))
     
-    for i in range(0, digitsCount):
+    for i in range(0, digits_count):
         list.insert(0, number % 10)
         number //= 10
 

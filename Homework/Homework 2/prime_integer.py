@@ -1,4 +1,4 @@
-def primeInteger(number):
+def prime_integer(number):
     if number == 1:
         return False
 
@@ -13,4 +13,4 @@ def primeInteger(number):
 
     return False
 
-print(primeInteger(-10))
+print(prime_integer(-10))

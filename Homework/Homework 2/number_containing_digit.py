@@ -1,8 +1,8 @@
-def containsDigit(number, digit):
+def contains_digit(number, digit):
     digits = []
-    digitsCount = len(str(number))
+    digits_count = len(str(number))
 
-    for i in range(digitsCount):
+    for i in range(digits_count):
         digits.insert(0, number % 10)
         number //= 10
     
@@ -11,4 +11,4 @@ def containsDigit(number, digit):
     
     return False
 
-print(containsDigit(12346789, 5))
+print(contains_digit(12346789, 5))

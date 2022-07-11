@@ -1,12 +1,12 @@
-def isPalindrome(number):
-    stringNumber = str(number)
+def is_palindrome(number):
+    string_number = str(number)
 
-    for i in range(len(stringNumber) // 2):
-        if stringNumber[i] == stringNumber[len(stringNumber) - 1 - i]:
+    for i in range(len(string_number) // 2):
+        if string_number[i] == string_number[len(string_number) - 1 - i]:
             continue
         else:
             return False
     
     return True
 
-print(isPalindrome(123))
+print(is_palindrome(123))

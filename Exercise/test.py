@@ -12,5 +12,6 @@ cute_animals[::-1]
 cute_animals[-1 : 0 : -1]
 cute_animals[-1 : 0 : -2]
 
-cute_animals.sort()
-print(cute_animals)
+#cute_animals.sort()
+#print(cute_animals)
+
