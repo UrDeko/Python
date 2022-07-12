@@ -16,9 +16,11 @@ def countSubstrings2(string, pattern):
             if pattern[j] == string[i]:
 
                 if i == len(string) - 1 and j == len(pattern) - 1:
+                    i += 1
                     break
                 elif i == len(string) - 1 and j != len(pattern) - 1:
                     contains = False
+                    i += 1
                     break
 
                 i += 1
@@ -26,6 +28,7 @@ def countSubstrings2(string, pattern):
                 contains = False
 
                 if i == len(string) - 1:
+                    i += 1
                     break
 
                 i += 1
@@ -37,4 +40,4 @@ def countSubstrings2(string, pattern):
     return count
         
 
-print(countSubstrings2("This is this and that is this", "this"))
+print(countSubstrings2("babababa", "baba"))
