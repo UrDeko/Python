@@ -3,9 +3,9 @@ def containing_all_digits(number, digits):
         return False
 
     number_as_list = []
-    listLength = len(str(number))
+    list_length = len(str(number))
 
-    for i in range(listLength):
+    for i in range(list_length):
         number_as_list.insert(0, number % 10)
         number //= 10
 

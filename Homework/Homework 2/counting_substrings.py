@@ -9,13 +9,16 @@ def countSubstrings2(string, pattern):
     count = 0
 
     i = 0
-    while i < len(string) - 1:
+    while i < len(string):
         contains = True
 
         for j in range(len(pattern)):
             if pattern[j] == string[i]:
 
-                if i == len(string) - 1:
+                if i == len(string) - 1 and j == len(pattern) - 1:
+                    break
+                elif i == len(string) - 1 and j != len(pattern) - 1:
+                    contains = False
                     break
 
                 i += 1
