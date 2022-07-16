@@ -32,4 +32,4 @@ def countSubstrings2(string, pattern):
     return count
         
 
-print(countSubstrings2("babababaa", "baba"))
+print(countSubstrings2("bababababab", "baba"))
