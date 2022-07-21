@@ -82,7 +82,7 @@ class CashDesk:
             for element in self.desk:
                 self.desk[element] -= take[element]
 
-        return [-1] if amount else self.desk
+        return [-1] if amount else take
                
     def total(self):
         sum = 0
@@ -106,6 +106,6 @@ desk.take_money(Bill(10))
 print(desk.total())
 desk.inspect()
 
-desk.withdraw(80)
+print(desk.withdraw(80))
 print(desk.total())
 desk.inspect()
