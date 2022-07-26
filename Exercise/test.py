@@ -1,3 +1,5 @@
+import os
+
 foods = ['spam', 'eggs', 'ham']
 things = foods
 things[1] = 'chips'
@@ -13,7 +15,7 @@ cute_animals[-1 : 0 : -1]
 cute_animals[-1 : 0 : -2]
 
 #cute_animals.sort()
-print(cute_animals[:5])
+print(cute_animals[-1::-1])
 
 #isdisjoint()
 
@@ -36,3 +38,13 @@ print(cute_animals[:5])
 #
 #for element in get_bills_quantity([]).keys():
 #    print(element)
+
+#list = [4, 3, 6, 7]
+#iterator = iter(list)
+#
+#for i in sorted(iterator):
+#    print(i)
+
+#cwd = os.getcwd()  # Get the current working directory (cwd)
+#files = os.listdir(cwd)  # Get all the files in that directory
+#print("Files in %r: %s" % (cwd, files))

@@ -1,0 +1,19 @@
+Dog breeds:
+Huskey,
+German Shepherd,
+Mops,
+Bulldog,
+Pincher,
+Labrador
+Hello this is a new line
+Number of arguments: 10
+Argument 0: file_operations.py
+Argument 1: The
+Argument 2: quick
+Argument 3: brown
+Argument 4: fox
+Argument 5: jumps
+Argument 6: over
+Argument 7: the
+Argument 8: lazy
+Argument 9: dog

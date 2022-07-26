@@ -1,0 +1,6 @@
+
+Arguments count: 1
+Argument      0: c:/Users/Deko/Documents/Work/Python/Exercise/write_in_file.py
+Arguments count: 2
+Argument      0: write_in_file.py
+Argument      1: Ivan
